@@ -358,6 +358,7 @@ body {
           justify-content: center;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
+  margin-bottom: 50px;
 }
 
 .grid-list__item {
