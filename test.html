@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/test.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+
+    <div class="quiz-over-modal">
+        <div class="quiz-over-modal__container">
+            <div class="over-modal__content">
+                <h2>Хороший результат!</h2>
+                <p>ты ответил на <span class="correct-answers"></span> из
+                    <span class="all-questions"></span> вопросов (<span class="percent-out"></span>%)
+                </p>
+                <button id="btn-try-again" class="btn">Заново</button>
+                <a href="#" class="continue btn">к новым тестам</a>
+            </div>
+        </div>
+    </div>
+    <div class="quiz">
+        <div class="quiz__container">
+            <div class="quiz__body">
+                <div class="question__number">
+                    <h3>Вопрос <span id="number-of-question"></span> из <span id="number-of-all-questions"></span>
+                    </h3>
+                </div>
+                <div class="underline"></div>
+                <div id="question"></div>
+                <div class="options">
+                    <div data-id="0" class="option option1"></div>
+                    <div data-id="1" class="option option2"></div>
+                    <div data-id="2" class="option option3"></div>
+                    <div data-id="3" class="option option4"></div>
+                </div>
+                <div class="alert__box"></div>
+                <button class="learn-more" id="btn-next">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">продолжить</span>
+                </button>
+                <div class="underline"></div>
+                <div id="ansvers-tracker">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/test.js"></script>
+</body>
+
+</html>

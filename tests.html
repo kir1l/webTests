@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tests.css">
+    <title>Tests list</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__body">
+                <a href="index.html" class="header__logo">WebTests</a>
+                <nav class="header__navigation navigation-header">
+                    <ul class="navigation-header__list">
+                        <li class="navigation-list__item"><a href="index.html" class="list__link">Главная</a></li>
+                        <li class="navigation-list__item"><a href="tests.html" class="list__link">Тесты</a></li>
+                        <li class="navigation-list__item"><a href="#" class="list__link">О проекте</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="menu-items">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="tests.html">Тесты</a></li>
+                    <li><a href="#">О проекте</a></li>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="tests-list">
+            <div class="tests-list__container">
+                <div class="tests-list__body">
+                    <div class="tests-list__title">Тесты на любой вкус и цвет</div>
+                    <div class="tests-list__filter">
+                        <div class="drop2" id="drop2">
+                            <div class="select">
+                                <span class="selected">Все</span>
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="drop2__menu">
+                                <li data-test="all" class="active">Все</li>
+                                <li data-test="css">CSS</li>
+                                <li data-test="HTML">HTML</li>
+                                <li data-test="JavaScript">JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tests-list__grid" id="grid">
+                        <a href="/csstest/csstest.html" class="grid-list__item" data-name="css">
+                            <div class="list-item__body">
+                                <div class="list-item__img"><img src="assets/images/tests/htmlcss.png" alt="css"></div>
+                                <div class="list-item__title">Тест по CSS</div>
+                                <div class="list-item__text">Если вы только начали изучать верстку -
+                                    этот раздел для вас</div>
+                            </div>
+                        </a>
+                        <a href="#" class="grid-list__item" data-name="JavaScript">
+                            <div class="list-item__body">
+                                <div class="list-item__img"><img
+                                        src="https://media.tproger.ru/uploads/2019/09/image2-2.png" alt="css"></div>
+                                <div class="list-item__title">Тест "что выведет код?"</div>
+                                <div class="list-item__text">Отличный тест для того чтобы научться понимать
+                                    чужой код</div>
+                            </div>
+                        </a>
+                        <a href="jstest/jstest.html" class="grid-list__item" data-name="JavaScript">
+                            <div class="list-item__body">
+                                <div class="list-item__img"><img src="assets/images/tests/js.png" alt="css"></div>
+                                <div class="list-item__title">Тест по JS уровень 1</div>
+                                <div class="list-item__text">для тех, кто только начал учить JavaScript</div>
+                            </div>
+                        </a>
+                        <a href="htmltest/htmltest.html" class="grid-list__item" data-name="HTML">
+                            <div class="list-item__body">
+                                <div class="list-item__img"><img src="assets/images/tests/html.jpg" alt="css"></div>
+                                <div class="list-item__title">Тест по HTML</div>
+                                <div class="list-item__text">Для тех, кто только начал изучать web разработку
+                                </div>
+                            </div>
+                        </a>
+                        <a href="selectorstest/selectors.html" class="grid-list__item" data-name="css">
+                            <div class="list-item__body">
+                                <div class="list-item__img"><img src="assets/images/tests/selectors.png" alt="css">
+                                </div>
+                                <div class="list-item__title">Тест по CSS селекторам</div>
+                                <div class="list-item__text">поможет запомнить все самые нужные селекторы</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/list.js"></script>
+</body>
+
+</html>
