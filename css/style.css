@@ -592,7 +592,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: #ffffff;
+  color: #fff;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
