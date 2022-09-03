@@ -110,6 +110,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 80px;
+  padding: 0 60px;
 }
 
 .header__logo {
@@ -118,7 +119,7 @@ body {
   color: black;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .header__navigation {
     display: none;
   }
@@ -174,6 +175,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: fixed;
 }
 
 .navbar .nav-container li {
@@ -200,7 +202,7 @@ body {
   position: relative;
   z-index: 12;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .nav-container {
     display: none;
   }
@@ -217,7 +219,7 @@ body {
   opacity: 0;
   cursor: pointer;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .nav-container .checkbox {
     display: none;
   }
@@ -242,7 +244,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .nav-container .hamburger-lines {
     display: none;
   }
